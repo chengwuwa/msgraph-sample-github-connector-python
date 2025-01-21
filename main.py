@@ -16,7 +16,7 @@ async def main():
     graph: Graph = Graph(azure_settings)
 
     user = await graph.get_user()
-    print('Hello,', user.display_name)
+    print('Hello,welcome to GitHub ', user.display_name)
 
     choice = -1
 
